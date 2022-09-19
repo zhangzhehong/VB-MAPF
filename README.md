@@ -45,6 +45,6 @@ this is the coding for vein-based pattern formation in version3.0.
 
 8. video
    - Show three demonstrations
-<iframe height=400 width=680 src="https://github.com/zhangzhehong/VB-MAPF/blob/main/video.mp4">
+https://user-images.githubusercontent.com/24367442/191060097-a7b2fd6d-4442-403f-9200-d51dd8de39b8.mp4
 
 
