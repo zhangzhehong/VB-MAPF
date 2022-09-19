@@ -47,7 +47,7 @@ for size in range(10,21):
                                 #########################################################################
                                 ################ step 1 : get target shape locations ####################
                                 #########################################################################
-                                file = '../../../input/data2/shape'+str(shape_index)+'/img'+str(img_index)+'.png'   # the filename of the input
+                                file = 'input/data2/shape'+str(shape_index)+'/img'+str(img_index)+'.png'   # the filename of the input
                                 print("size = ",n, "shape :",file)
                                 img = Shape(file)      # get the image by the filename
                                 img.getTargetShape(n)  # get the set of original target locations from the input
