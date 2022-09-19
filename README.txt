@@ -43,6 +43,8 @@ c.glut coalition
 7. formation-VB4.py
 # type=4,slope=3pi/4, the vein-based formation
 
+7. video
+# Show three demonstrations
 
 
 
