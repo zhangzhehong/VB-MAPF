@@ -24,9 +24,9 @@ data_timestep = []
 data_max_dis = []
 data_sum_dis = []
 
-file_data_timestep = open('../../../output/veinbasedformation/formation3/VB2_timestep_1.txt','w')
-file_data_max_dis = open('../../../output/veinbasedformation/formation3/VB2_max_dis_1.txt','w')
-file_data_sum_dis = open('../../../output/veinbasedformation/formation3/VB2_sum_dis_1.txt','w')
+file_data_timestep = open('output/veinbasedformation/formation3/VB2_timestep_1.txt','w')
+file_data_max_dis = open('output/veinbasedformation/formation3/VB2_max_dis_1.txt','w')
+file_data_sum_dis = open('/output/veinbasedformation/formation3/VB2_sum_dis_1.txt','w')
 
 labels = []
 img_index = 3
@@ -49,7 +49,7 @@ for n in size_list:
                                 #########################################################################
                                 ################ step 1 : get target shape locations ####################
                                 #########################################################################
-                                file = '../../../input/data2/shape'+str(shape_index)+'/img'+str(img_index)+'.png'   # the filename of the input
+                                file = 'input/data2/shape'+str(shape_index)+'/img'+str(img_index)+'.png'   # the filename of the input
                                 print("size = ",n, "shape :",file)
                                 img = Shape(file)      # get the image by the filename
                                 img.getTargetShape(n)  # get the set of original target locations from the input
